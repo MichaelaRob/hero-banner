@@ -17,11 +17,11 @@ h2 {
   color: #fff;
   display: block;
   margin-bottom: 0;
+  line-height: 1.4;
 }
 
 span {
   background-color: rgba(0, 0, 0, .5);
-  line-height: 1em;
 }
 
 .banner {
