@@ -9,21 +9,14 @@ html {
 
 h1 {
   font-size: 4rem;
-  font-weight: bold;
-  position: absolute;
-  top: 2px;
-  left: 2px;
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
-  max-width: 50em;
 }
 
 .banner {
   max-height: 500px;
   overflow: hidden;
   position: relative;
-  max-width: 50em;
-  z-index: 1000000;
 }
 
 .img-flex {
@@ -34,7 +27,14 @@ h1 {
 p {
   font-size: 2rem;
   font-style: italic;
+}
+
+.banner-content {
+  padding: 0 1rem;
   position: absolute;
-  bottom: 2px;
+  bottom: 1rem;
   max-width: 50em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
 }
