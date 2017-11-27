@@ -16,7 +16,9 @@ h2 {
   font-size: 4rem;
   color: #fff;
   display: block;
+  margin-top: 1px;
   margin-bottom: 0;
+  line-height: 1.4;
 }
 
 span {
@@ -37,7 +39,7 @@ span {
 p {
   font-size: 2rem;
   font-style: italic;
-  margin-top: 0;
+  margin-top: 2px;
 }
 
 .banner-content {
